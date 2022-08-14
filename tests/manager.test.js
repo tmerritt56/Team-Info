@@ -1,0 +1,1 @@
+// this extends from employee, officenumber getRole(), overriden to return Manager. 

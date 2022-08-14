@@ -1,0 +1,1 @@
+// parent clss: name, id, email, getName(),getId(), getEmail(),getRole() returns employee. Consider adding validation to ensure user input is provided in proper expectations. 
