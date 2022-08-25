@@ -10,5 +10,11 @@ test("get GITHUB User", () => {
 test("getRole() should return Eng", () => {
     const role = "Engineer";
     const eng = new Engineer ("Todd", 1, "test@test.com", "GitHubUser");
-    expect(eng.getRole()).toBe(role)
-})
+    expect(eng.getRole()).toBe(role);
+});
+
+test("Get GitHub user via getGithub()", ()=> {
+    const user = "GitHubUser";
+    const eng = new Engineer("Todd", 1, "test@test.com", user);
+    expect(eng.getGithub()).toBe(user);
+});
